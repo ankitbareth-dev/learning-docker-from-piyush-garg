@@ -8,4 +8,4 @@ app.get("/",(req,res)=>{
     res.json({message: "Hey, I Am node Application with docker"})
 })
 
-app.listen(PORT,()=> `server is running on port http://localhost:${PORT}`)
+app.listen(PORT,()=> console.log(`server is running on port http://localhost:${PORT}`))
